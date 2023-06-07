@@ -13,7 +13,7 @@
 
 .title {
   font-size: 72px;
-  background: linear-gradient(to bottom, rebeccapurple, gray);
+  background: linear-gradient(to bottom, #194c33, #bbb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -21,20 +21,22 @@
 .img {
   width: 100%;
   height: 500px;
-  object-fit: cover;
+  object-fit: contain;
+  /* animation: move 3s infinite ease alternate; */
 }
+
+@keyframes move {
+  from {
+    transform: translateY(-10px);
+  }
+  to {
+    transform: translateY(10px);
+  }
+}
+
 
 .desc {
   font-size: 24px;
   font-weight: 300;
 }
 
-.button {
-  padding: 20px;
-  cursor: pointer;
-  background-color: rebeccapurple;
-  border: none;
-  border-radius: 5px;
-  width: max-content;
-  color: lightgray;
-}
