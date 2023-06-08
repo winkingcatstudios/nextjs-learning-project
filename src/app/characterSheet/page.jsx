@@ -10,7 +10,7 @@ export const metadata = {
 
 const CharacterSheet = () => {
   return (
-    <div className={styles.container}>
+    <div className={` ${styles.container}`}>
       <h1 className={styles.title}>Character Sheet</h1>
       <div className={styles.content}>
         <div className={styles.imgContainer}>
