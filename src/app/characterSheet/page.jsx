@@ -4,14 +4,14 @@ import Image from "next/image";
 import Button from "@/components/Button/Button";
 
 export const metadata = {
-  title: "Dice Cats Contact Information",
-  description: "This is Contact Page",
+  title: "Dice Cats Character Sheet",
+  description: "This is Character Sheet Page",
 };
 
-const Contact = () => {
+const CharacterSheet = () => {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Keep in Touch</h1>
+      <h1 className={styles.title}>Character Sheet</h1>
       <div className={styles.content}>
         <div className={styles.imgContainer}>
           <Image
@@ -37,4 +37,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default CharacterSheet;

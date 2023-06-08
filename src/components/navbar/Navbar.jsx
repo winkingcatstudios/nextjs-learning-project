@@ -19,21 +19,26 @@ const links = [
   },
   {
     id: 3,
+    title: "Character Sheet",
+    url: "/characterSheet",
+  },
+  {
+    id: 4,
     title: "Blog",
     url: "/blog",
   },
   {
-    id: 4,
+    id: 5,
     title: "About",
     url: "/about",
   },
   {
-    id: 5,
+    id: 6,
     title: "Contact",
     url: "/contact",
   },
   {
-    id: 6,
+    id: 7,
     title: "Dashboard",
     url: "/dashboard",
   },
